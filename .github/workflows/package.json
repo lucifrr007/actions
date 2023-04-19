@@ -1,4 +1,1 @@
-{
-"name" :"Kirti-Komal",
-"main" :"app.js"
-}
+{"name":"Kirti-Komal","main":"app.js","dependencies":{"moment":"^2.29.4"}}

@@ -1,0 +1,24 @@
+name: Double jon Run
+
+on:
+ push:
+   branches:
+     -  main
+ workflow_dispatch:
+
+jobs:
+    Komal:
+        runs-on: ubuntu-latest
+        steps:
+        - uses: actions/checkout@v3
+        - name: Komal-JOB
+          run:  echo "Komal-Choudhary"
+          shell: bash
+
+    Kirti:
+        runs-on: ubuntu-latest
+        steps:
+          - uses: actions/checkout@v3
+          - name: Kirti-JOB
+            run:  echo "Kirti-Bardhan"
+            shell: bash      

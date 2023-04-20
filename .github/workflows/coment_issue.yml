@@ -15,7 +15,7 @@ jobs:
        -  name: Create comment
           uses: peter-evans/create-or-update-comment@v3
           with:
-           issue-number: 1
+           issue-number: ${{ github.event.issue.number  }}
            body: |
              This is a RPM Not isntall Comment Warning
              - With GitHub **Markdown** :sparkles:
